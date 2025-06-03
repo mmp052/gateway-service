@@ -117,7 +117,7 @@ metadata:
 spec:
   selector:
     app: gateway
-  type: NodePort
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 8080
